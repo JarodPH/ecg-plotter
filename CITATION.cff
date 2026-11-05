@@ -2,6 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "ecg-plotter"
 version: "0.1.0"
+date-released: 2026-11-05
+doi: 10.5281/zenodo.23984258
+url: "https://github.com/JarodPH/ecg-plotter"
+repository-code: "https://github.com/JarodPH/ecg-plotter"
 
 type: software
 authors:

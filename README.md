@@ -181,6 +181,12 @@ Outputs are written to `examples/output/`.
 
 ![Greyscale sheet, same page size](examples/output/size_grey_resolution.png)
 
+## How to cite
+
+If you use this software, please cite it:
+
+Hartley, J. P. (2026). *ecg-plotter*. Zenodo. https://doi.org/10.5281/zenodo.23984258
+
 ## Tests
 
 ```bash

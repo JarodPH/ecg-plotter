@@ -39,6 +39,9 @@ dependencies = [
 dev = ["pytest>=7.0"]
 
 [project.urls]
+Homepage = "https://github.com/JarodPH/ecg-plotter"
+Repository = "https://github.com/JarodPH/ecg-plotter"
+Zenodo = "https://doi.org/10.5281/zenodo.23984258"
 ORCID = "https://orcid.org/0009-0006-0736-5100"
 
 [project.scripts]
