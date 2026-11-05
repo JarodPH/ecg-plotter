@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecg-plotter"
+dynamic = ["version"]
+description = "Research/visualisation ECG sheets at settable size and DPI (not for diagnostic use)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Jarod P. Hartley", email = "jarodph.contact@gmail.com" },
+]
+keywords = ["ecg", "electrocardiogram", "plot", "wfdb"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "Pillow>=9.0",
+    "wfdb>=4.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+ORCID = "https://orcid.org/0009-0006-0736-5100"
+
+[project.scripts]
+ecg-plotter = "ecg_plotter.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "ecg_plotter._version.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ecg_plotter*"]
+
+[tool.setuptools.package-data]
+ecg_plotter = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

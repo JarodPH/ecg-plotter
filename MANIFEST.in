@@ -1,0 +1,21 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include CITATION.cff
+include ecg_plotter/py.typed
+recursive-include ecg_plotter *.py
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-include examples *.md
+recursive-include examples *.jsonl
+recursive-include examples *.csv
+recursive-include examples *.hea
+recursive-include examples *.dat
+recursive-include .github *.yml
+
+global-exclude *.py[cod]
+prune examples/output
+prune dist
+prune build
+prune .pytest_cache
+prune ecg_plotter.egg-info

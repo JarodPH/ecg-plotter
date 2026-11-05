@@ -1,0 +1,15 @@
+synth_0002 12 500 5000
+synth_0002.dat 16 200.0(0)/mV 16 0 6 12144 0 I
+synth_0002.dat 16 200.0(0)/mV 16 0 9 27827 0 II
+synth_0002.dat 16 200.0(0)/mV 16 0 2 5930 0 III
+synth_0002.dat 16 200.0(0)/mV 16 0 9 23548 0 aVR
+synth_0002.dat 16 200.0(0)/mV 16 0 -7 56611 0 aVL
+synth_0002.dat 16 200.0(0)/mV 16 0 -4 40058 0 aVF
+synth_0002.dat 16 200.0(0)/mV 16 0 -3 7564 0 V1
+synth_0002.dat 16 200.0(0)/mV 16 0 -7 22628 0 V2
+synth_0002.dat 16 200.0(0)/mV 16 0 -3 37104 0 V3
+synth_0002.dat 16 200.0(0)/mV 16 0 -9 31214 0 V4
+synth_0002.dat 16 200.0(0)/mV 16 0 2 17240 0 V5
+synth_0002.dat 16 200.0(0)/mV 16 0 -13 11045 0 V6
+# Synthetic ECG for ecg-plotter examples — not real patient data.
+# label: Synthetic tachycardia

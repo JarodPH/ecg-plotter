@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ecg-plotter"
+version: "0.1.0"
+
+type: software
+authors:
+  - family-names: Hartley
+    given-names: Jarod P.
+    email: jarodph.contact@gmail.com
+    orcid: "https://orcid.org/0009-0006-0736-5100"
+    affiliation: Swansea University
+license: MIT
+abstract: >-
+  Plot 12-lead ECGs at settable physical size or pixel resolution and DPI,
+  with optional signal filters, for research, teaching, and ML dataset
+  creation. Not intended for diagnostic use or clinical decision-making.
+keywords:
+  - ecg
+  - electrocardiogram
+  - plot
+  - wfdb

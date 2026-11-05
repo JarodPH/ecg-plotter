@@ -1,0 +1,4 @@
+id,label,path
+synth_0001,Synthetic sinus,synth_0001
+synth_0002,Synthetic tachycardia,synth_0002
+synth_0003,Synthetic bradycardia,synth_0003
