@@ -52,7 +52,7 @@ def test_public_plot_stays_callable_after_other_imports():
 
 def test_version_single_source():
     assert __version__ == version_file
-    assert __version__ == "0.1.0"
+    assert __version__ == "0.1.1"
 
 
 def test_py_typed_marker_is_shipped():

@@ -1,4 +1,4 @@
-# ECG Plotter
+# ecg-plotter
 
 Plot 12-lead ECGs as classic clinical-style sheets with **settable physical size or pixel resolution**, **DPI**, optional **signal filters**, and accurate **mm/s / mm/mV** footer reporting.
 
@@ -6,7 +6,11 @@ Plot 12-lead ECGs as classic clinical-style sheets with **settable physical size
 
 **Author:** Jarod P. Hartley ([ORCID](https://orcid.org/0009-0006-0736-5100)), Swansea University — jarodph.contact@gmail.com
 
-![Colour sheet, 9.84 by 6.3 inches at 300 DPI](examples/output/size_colour_inches.png)
+If you use this software, please cite it:
+
+Hartley, J. P. (2026). *ecg-plotter*. Zenodo. https://doi.org/10.5281/zenodo.23984258
+
+![Colour sheet, 9.84 by 6.3 inches at 300 DPI](https://raw.githubusercontent.com/JarodPH/ecg-plotter/main/examples/output/size_colour_inches.png)
 
 ## Install
 
@@ -179,13 +183,7 @@ python examples/plot_pdf_and_svg.py
 
 Outputs are written to `examples/output/`.
 
-![Greyscale sheet, same page size](examples/output/size_grey_resolution.png)
-
-## How to cite
-
-If you use this software, please cite it:
-
-Hartley, J. P. (2026). *ecg-plotter*. Zenodo. https://doi.org/10.5281/zenodo.23984258
+![Greyscale sheet, same page size](https://raw.githubusercontent.com/JarodPH/ecg-plotter/main/examples/output/size_grey_resolution.png)
 
 ## Tests
 
